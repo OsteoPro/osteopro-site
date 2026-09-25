@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /reference/reference-mockup.png
+Sitemap: https://osteopro.com.au/sitemap.xml
