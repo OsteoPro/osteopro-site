@@ -1,0 +1,31 @@
+/* All colour values live here. Accent sampled from the supplied logo-large.png:
+   RGB (28, 73, 153), its most frequent exact blue pixel (1,308 pixels). */
+:root {
+  --base: #161C2C;
+  --deep: #303B54;
+  --mid: #8A96AC;
+  --light: #C7D0E0;
+  --paper: #F0F3FA;
+  --accent: #1C4999;
+  --surface: color-mix(in srgb, var(--paper) 30%, white);
+  --hero-base: color-mix(in srgb, var(--base) 62%, black);
+  --hero-bottom: color-mix(in srgb, var(--base) 85%, var(--accent));
+  --accent-hover: color-mix(in srgb, var(--accent) 80%, var(--base));
+  --accent-light: color-mix(in srgb, var(--accent) 30%, var(--paper));
+  --accent-wash: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  --border: color-mix(in srgb, var(--light) 72%, var(--paper));
+  --border-dark: color-mix(in srgb, var(--light) 21%, transparent);
+  --glow: color-mix(in srgb, var(--accent) 55%, transparent);
+  --glow-soft: color-mix(in srgb, var(--accent) 24%, transparent);
+  --line-glow: color-mix(in srgb, var(--accent-light) 60%, transparent);
+  --grain: color-mix(in srgb, var(--light) 18%, transparent);
+  --shadow: color-mix(in srgb, var(--base) 9%, transparent);
+  --shadow-deep: color-mix(in srgb, var(--hero-base) 55%, transparent);
+  --transparent: transparent;
+  --focus-light: var(--paper);
+  --focus-dark: var(--accent);
+  --font: Arial, Helvetica, sans-serif;
+  --content: 1240px;
+  --radius: 5px;
+  --header-height: 98px;
+}
